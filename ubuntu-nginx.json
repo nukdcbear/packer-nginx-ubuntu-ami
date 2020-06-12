@@ -23,7 +23,7 @@
       },
       "instance_type": "t2.micro",
       "ssh_username": "ubuntu",
-      "ami_name": "name-{{timestamp}}",
+      "ami_name": "nginx-ubuntu-{{timestamp}}",
       "ami_regions": ["us-east-2"],
       "subnet_id": "subnet-06d2f1d8a5a619fab",
       "vpc_id": "vpc-0e2a0b0d235345dd2"
