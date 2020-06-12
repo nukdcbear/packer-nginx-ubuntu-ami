@@ -13,7 +13,7 @@ This can be executed on either a Windows or Linux system
 
 ```bash
 # Clone the respository
-git clone
+git clone git@github.com:nukdcbear/packer-nginx-ubuntu-ami.git
 
 # cd in the directory
 cd packer-nginx-ubuntu-ami
