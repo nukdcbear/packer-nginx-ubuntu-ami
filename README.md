@@ -24,6 +24,6 @@ packer build -var 'aws_access_key=XXXXXXXXXXX' -var 'aws_secret_key=XXXXXXXXXXXX
 
 ### Notes
 
-The Pack json has a vpc_id and subnet_id defined but that is only required when Packer cannot determine the default VPC for t2.micro, see https://learn.hashicorp.com/packer/getting-started/build-image#known-issue.
+The Packer json has a vpc_id and subnet_id defined but that is only required when Packer cannot determine the default VPC for t2.micro, see https://learn.hashicorp.com/packer/getting-started/build-image#known-issue.
 
 Also the `ami_name` should be customized.
