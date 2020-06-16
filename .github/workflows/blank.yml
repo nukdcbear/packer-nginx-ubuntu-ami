@@ -24,6 +24,7 @@ jobs:
 
     # Execute packer to create AMI
     - name: Run packer
-      env: AWS_ACCESS_KEY ${{ secrets.aws_access_key }}
-           AWS_SECRET_KEY ${{ secrets.aws_secret_key }}
+      env:
+        AWS_ACCESS_KEY ${{ secrets.aws_access_key }}
+        AWS_SECRET_KEY ${{ secrets.aws_secret_key }}
       run: packer build -var "aws_access_key=$AWS_ACCESS_KEY" -var "aws_secret_key=$AWS_SECRET_KEY" .\ubuntu-nginx.json
