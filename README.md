@@ -1,5 +1,7 @@
 # Packer Create Nginx Ubuntu AMI
 
+![CI](https://github.com/nukdcbear/packer-nginx-ubuntu-ami/workflows/CI/badge.svg?branch=master)
+
 ## Requirements
 
 - HashiCorp [Packer](https://www.packer.io/downloads/)
