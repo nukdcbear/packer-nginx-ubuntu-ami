@@ -19,7 +19,7 @@
       },
       "tags": {
         "Name": "nginx-ubuntu-{{timestamp}}",
-        "Description": "Description"
+        "Description": "Ubuntu with Nginx server"
       },
       "instance_type": "t2.micro",
       "ssh_username": "ubuntu",
