@@ -11,10 +11,10 @@
       "source_ami_filter": {
         "filters": {
           "virtualization-type": "hvm",
-          "name": "ubuntu/images/*ubuntu-bionic-18.04-amd64-server-*",
+          "name": "{{user `ami_name`}}",
           "root-device-type": "ebs"
         },
-        "owners": ["099720109477"],
+        "owners": ["{{user `ami_owners`}}"],
         "most_recent": true
       },
       "tags": {
