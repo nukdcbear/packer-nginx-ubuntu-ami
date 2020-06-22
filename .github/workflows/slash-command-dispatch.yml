@@ -1,0 +1,14 @@
+name: Slash Command Dispatch - CI
+on:
+  issue_comment:
+    types: [created]
+jobs:
+  slashCommandDispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Execute Packer
+        uses: peter-evans/slash-command-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          commands: packer-ami-create
+          repository: nukdcbear/slash-command-processor
