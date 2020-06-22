@@ -18,7 +18,7 @@
         "most_recent": true
       },
       "tags": {
-        "Name": "Name",
+        "Name": "nginx-ubuntu-{{timestamp}}",
         "Description": "Description"
       },
       "instance_type": "t2.micro",
